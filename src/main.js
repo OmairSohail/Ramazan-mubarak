@@ -2,8 +2,21 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
+import './assets/tailwind.css';
+import './assets/main.css';
+
+
+import vueclock from 'vue-digital-clock';
+Vue.use(vueclock);
+
 
 Vue.config.productionTip = false
+
+Vue.component('navbar',require('./components/navBar.vue').default);
+
+
+
+
 
 new Vue({
   router,

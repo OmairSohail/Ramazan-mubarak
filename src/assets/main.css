@@ -1,0 +1,14 @@
+:root{
+        --primary:#01161B;
+        --secondary:#172720;
+        --golden:#BD9756;
+        --dark-golden:#946A2E;
+}
+
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Montserrat', sans-serif;
+}
