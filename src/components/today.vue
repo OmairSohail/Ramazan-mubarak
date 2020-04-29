@@ -1,7 +1,8 @@
 <template>
   
      <div class="today bg-white rounded-lg p-6">
-        <h2 class="text-xl text-center"><i class="fas fa-moon fa-2x"></i>{{iftarorsehr}} Timing for today</h2>
+         <h2 class="text-center"><i class="fas fa-moon fa-2x"></i></h2>
+        <h2 class="text-xl text-center">{{iftarorsehr}} Timing for today <br>(Karachi)</h2>
         <div class="mt-4">
             <div class="flex flex-row items-center justify-between mb-3">
                 <p class="text-xl font-bold tracking-widest inline-block">{{date}}</p>

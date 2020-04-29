@@ -12,19 +12,19 @@
             </div>
             <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto" :class="{'hidden': !isToggled}">
                 <div class="text-sm lg:flex-grow">
-                <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0  text-gray-100 mr-4" :class="{'hover:bg-gray-700 rounded p-2 mr-0 font-bold text-center':isToggled}">
+                <a href="#section-showcase" class="block mt-4 lg:inline-block lg:mt-0  text-gray-100 mr-4" :class="{'hover:bg-gray-700 rounded p-2 mr-0 font-bold text-center':isToggled}">
                    Home
                 </a>
-                 <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0  text-gray-100 mr-4" :class="{'hover:bg-gray-700 rounded p-2 mr-0 font-bold text-center':isToggled}">
+                 <a href="#section-calender" class="block mt-4 lg:inline-block lg:mt-0  text-gray-100 mr-4" :class="{'hover:bg-gray-700 rounded p-2 mr-0 font-bold text-center':isToggled}">
                    Calendar
                 </a>
-                <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0  text-gray-100 mr-4" :class="{'hover:bg-gray-700 rounded p-2 mr-0 font-bold text-center':isToggled}">
+                <a href="#section-guidelines" class="block mt-4 lg:inline-block lg:mt-0  text-gray-100 mr-4" :class="{'hover:bg-gray-700 rounded p-2 mr-0 font-bold text-center':isToggled}">
                    Guidelines
                 </a>
-                <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0  text-gray-100 mr-4" :class="{'hover:bg-gray-700 rounded p-2 mr-0 font-bold text-center':isToggled}">
+                <a href="#section-abstrain" class="block mt-4 lg:inline-block lg:mt-0  text-gray-100 mr-4" :class="{'hover:bg-gray-700 rounded p-2 mr-0 font-bold text-center':isToggled}">
                    Dont's
                 </a>
-                <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0  text-gray-100 mr-4" :class="{'hover:bg-gray-700 rounded p-2 mr-0 font-bold text-center':isToggled}">
+                <a href="#section-prayers" class="block mt-4 lg:inline-block lg:mt-0  text-gray-100 mr-4" :class="{'hover:bg-gray-700 rounded p-2 mr-0 font-bold text-center':isToggled}">
                    Prayers
                 </a>
                 </div>
