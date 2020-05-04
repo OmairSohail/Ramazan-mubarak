@@ -11,38 +11,87 @@
          </div>
       </section>
       
-      <section class="benefits py-5 pl-12 grid grid-cols-3 justify-center items-center">
+      <section class="benefits py-5 pl-12 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 justify-center items-center">
          <div class="card max-w-sm rounded overflow-hidden shadow-lg">
             <div class="icon flex flex-row items-center justify-center py-5">
-                <img src="../assets/icon1.png" alt="" width="122" height="128" class="rounded-full bg-custom1">
+               <i class="fas fa-mobile-alt fa-3x text-custom2"></i>
             </div>
             <div class="px-6 py-4 text-custom2">
               <div class="font-bold text-xl mb-2 text-center">Trusted Tailoring</div>
-              <p class="text-gray-700 text- text-center px-4">
+              <p class="text-gray-700 text- text-center px-4 pb-3">
                 We care how you look and would like to build a relationship with you, as your trusted source for all your custom alteration needs.              </p>
             </div>
          </div>
           <div class="card max-w-sm rounded overflow-hidden shadow-lg">
             <div class="icon flex flex-row items-center justify-center py-5">
-                <i class="fas fa-cut fa-3x rounded-full text-custom2 bg-custom1 p-10"></i>
+                <i class="fas fa-cut fa-3x text-custom2"></i>
             </div>
-            <div class="px-6 py-4 text-custom2">
-              <div class="font-bold text-xl mb-2 text-center">Trusted Tailoring</div>
-              <p class="text-gray-700 text- text-center px-4">
+            <div class="px-6 py-4">
+              <div class="font-bold text-xl mb-2 text-center text-custom2">Trusted Tailoring</div>
+              <p class="text-gray-700 text- text-center px-4 pb-3">
                 We care how you look and would like to build a relationship with you, as your trusted source for all your custom alteration needs.              </p>
             </div>
            
          </div>
           <div class="card max-w-sm rounded overflow-hidden shadow-lg">
              <div class="icon flex flex-row items-center justify-center py-5">
-                <img src="../assets/Sewing-Machine.png" alt="" class="rounded-full bg-custom1 px-8 py-12">
+               <i class="fas fa-headset fa-3x text-custom2"></i>
             </div>
             <div class="px-6 py-4 text-custom2">
               <div class="font-bold text-xl mb-2 text-center">Trusted Tailoring</div>
-              <p class="text-gray-700 text- text-center px-4">
+              <p class="text-gray-700 text- text-center px-4 pb-3">
                 We care how you look and would like to build a relationship with you, as your trusted source for all your custom alteration needs.              </p>
             </div>
             
+         </div>
+      </section>
+
+      <section class="consultation grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 items-center justify-center">
+         <div class="content text-left px-16 text-custom2">
+           <h2 class="text-3xl mb-4"><i class="fas fa-handshake mr-3"></i>Customer Consultation</h2>
+           <p class="text-base">We've got all your needs covered: from recuts, reshapes and repairs and everything in between. Don't hesitate to ask us a question or inquire as to why a certain process has to take place. All of our staff are friendly and knowledgeable because we know what it feels like. We want you to know just how special you and your merchandise are to us, so we do our very best to ensure that you and your needs always come first. We even have a complimentary estimate when you come out to us!</p>
+         </div>
+         <div class="form px-16">
+           <form class="w-full max-w-lg">
+            <div class="flex flex-wrap -mx-3 mb-6">
+              <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
+                  Name
+                </label>
+                <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-first-name" type="text" placeholder="Name">
+              </div>
+              <div class="w-full md:w-1/2 px-3">
+                <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
+                  Email
+                </label>
+                <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="email" placeholder="Email">
+              </div>
+            </div>
+             <div class="flex flex-wrap -mx-3 mb-6">
+              <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
+                  Phone
+                </label>
+                <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-first-name" type="number" placeholder="Phone">
+                
+              </div>
+              <div class="w-full md:w-1/2 px-3">
+                <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-last-name">
+                  Subject
+                </label>
+                <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-last-name" type="text" placeholder="Subject">
+              </div>
+            </div>
+             <div class="flex flex-wrap -mx-3 mb-6">
+              <div class="w-full md:w-full px-3 mb-6 md:mb-0">
+                <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
+                 Message
+                </label>
+                <textarea name="" id="" class="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" rows="5" placeholder="Your Message"></textarea>
+                
+              </div>
+            </div>
+          </form>
          </div>
       </section>
 
@@ -100,4 +149,7 @@ section.benefits{
   min-height:70vh;
 }
 
+section.consultation{
+  min-height:70vh;
+}
 </style>
