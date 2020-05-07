@@ -87,21 +87,139 @@
                 <label class="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2" for="grid-first-name">
                  Message
                 </label>
-                <textarea name="" id="" class="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" rows="5" placeholder="Your Message"></textarea>
+                <textarea name="" id="" class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" rows="5" placeholder="Your Message"></textarea>
                 
               </div>
+            </div>
+             <div class="flex flex-wrap -mx-3 mb-6">
+              <div class="w-full md:w-full px-3 mb-6 md:mb-0">
+                 <button class="px-8 py-2 bg-custom1 float-right bg-custom1 text-custom2 font-semibold transition-transform duration-300 ease-out transform hover:scale-95">Submit</button>
+              </div>
+             
             </div>
           </form>
          </div>
       </section>
 
-      <section class="footer bg-gray-800 px-8 py-8">
-          <h2 class="text-3xl font-bold text-gray-200 py-3 text-center"><i class="fas fa-praying-hands px-2"></i>Pray For Me</h2>
-          <h2 class="text-lg text-gray-200 text-center">All Rights Reserved <i class="far fa-copyright"></i>, A Simple Project For Ramadan As A Virtue</h2>
-          <h2 class="text-md italic text-gray-200 text-center">Note: Iftar and Sehr timings displayed are for karachi only</h2>
-
+      <section class="categories flex flex-col justify-center">
+        <div class="max-w-2xl pl-4">
+            <div class="max-w-sm w-full lg:max-w-full lg:flex my-3 rounded-full">
+              <div class="card-img1 h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"  title="Woman holding a mug">
+              </div>
+              <div class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+                <div class="mb-8">
+                  <p class="text-sm text-gray-600 flex items-center">
+                    <svg class="fill-current text-gray-500 w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                      <path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" />
+                    </svg>
+                    Members only
+                  </p>
+                  <div class="text-gray-900 font-bold text-xl mb-2">Neck Designs</div>
+                  <p class="text-gray-700 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                </div>
+                <!-- <div class="flex items-center">
+                  <img class="w-10 h-10 rounded-full mr-4" src="/img/jonathan.jpg" alt="Avatar of Jonathan Reinink">
+                  <div class="text-sm">
+                    <p class="text-gray-900 leading-none">Jonathan Reinink</p>
+                    <p class="text-gray-600">Aug 18</p>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+         <div class="max-w-sm w-full lg:max-w-full lg:flex my-3 rounded-full">
+              <div class="card-img2 h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" title="Woman holding a mug">
+              </div>
+              <div class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+                <div class="mb-8">
+                  <p class="text-sm text-gray-600 flex items-center">
+                    <svg class="fill-current text-gray-500 w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                      <path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" />
+                    </svg>
+                    Members only
+                  </p>
+                  <div class="text-gray-900 font-bold text-xl mb-2">Sleeve Designs</div>
+                  <p class="text-gray-700 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                </div>
+                <!-- <div class="flex items-center">
+                  <img class="w-10 h-10 rounded-full mr-4" src="/img/jonathan.jpg" alt="Avatar of Jonathan Reinink">
+                  <div class="text-sm">
+                    <p class="text-gray-900 leading-none">Jonathan Reinink</p>
+                    <p class="text-gray-600">Aug 18</p>
+                  </div>
+                </div> -->
+              </div>
+         </div>
+        </div>
+          <!-- <div class="max-w-sm w-full lg:max-w-full lg:flex">
+              <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style="background-image: url('/img/card-left.jpg')" title="Woman holding a mug">
+              </div>
+              <div class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+                <div class="mb-8">
+                  <p class="text-sm text-gray-600 flex items-center">
+                    <svg class="fill-current text-gray-500 w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                      <path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" />
+                    </svg>
+                    Members only
+                  </p>
+                  <div class="text-gray-900 font-bold text-xl mb-2">Can coffee make you a better developer?</div>
+                  <p class="text-gray-700 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                </div>
+                <div class="flex items-center">
+                  <img class="w-10 h-10 rounded-full mr-4" src="/img/jonathan.jpg" alt="Avatar of Jonathan Reinink">
+                  <div class="text-sm">
+                    <p class="text-gray-900 leading-none">Jonathan Reinink</p>
+                    <p class="text-gray-600">Aug 18</p>
+                  </div>
+                </div>
+              </div>
+         </div>
+          <div class="max-w-sm w-full lg:max-w-full lg:flex">
+              <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style="background-image: url('/img/card-left.jpg')" title="Woman holding a mug">
+              </div>
+              <div class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+                <div class="mb-8">
+                  <p class="text-sm text-gray-600 flex items-center">
+                    <svg class="fill-current text-gray-500 w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                      <path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" />
+                    </svg>
+                    Members only
+                  </p>
+                  <div class="text-gray-900 font-bold text-xl mb-2">Can coffee make you a better developer?</div>
+                  <p class="text-gray-700 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                </div>
+                <div class="flex items-center">
+                  <img class="w-10 h-10 rounded-full mr-4" src="/img/jonathan.jpg" alt="Avatar of Jonathan Reinink">
+                  <div class="text-sm">
+                    <p class="text-gray-900 leading-none">Jonathan Reinink</p>
+                    <p class="text-gray-600">Aug 18</p>
+                  </div>
+                </div>
+              </div>
+         </div> -->
       </section>
-    
+
+      <section class="footer text-custom2 px-8 py-8 flex flex-row items-center justify-center">
+        <div class="footer-img">
+          <img src="../assets/logo.png" alt="">
+        </div>
+        <div class="footer-content flex flex-row justify-around w-full  ml-16">
+          <ul class="mx-3">
+            <li class="font-bold text-lg">Quick LInks</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+
+          <ul class="mx-3">
+            <li class="font-bold text-lg">Contact Us</li>
+            <li>Address : Gulistan-e-Johar , Block-17 , Noman Grand City , C-34</li>
+            <li>Phone : 03204175870</li>
+            <li>Email : casualstiches@gmail.com</li>
+          </ul>
+        </div>
+      </section>
+      <section class="copyrights bg-gray-900 text-gray-200 p-4">
+         <p class="text-center">© Casual Stiches , All Rights Reserved 2020</p>
+      </section>
   </div>
 </template>
 
@@ -151,5 +269,23 @@ section.benefits{
 
 section.consultation{
   min-height:70vh;
+}
+section.categories{
+  min-height: 100vh;
+  background-image:url('../assets/clothes.jpg');
+  background-position: center center;
+  background-size:cover;
+}
+
+
+.card-img1 {
+  background-image: url('../assets/neck.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+.card-img2 {
+  background-image: url('../assets/sleeve.jpg');
+  background-position: center center;
+  background-size: cover;
 }
 </style>
