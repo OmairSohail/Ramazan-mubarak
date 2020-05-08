@@ -15,12 +15,12 @@
                 <a href="#section-showcase" class="block mt-4 lg:inline-block lg:mt-0  text-custom2 mr-4" :class="{'hover:bg-custom1 rounded p-2 mr-0 font-bold text-center':isToggled}">
                    Home
                 </a>
-                 <a href="#section-calender" class="block mt-4 lg:inline-block lg:mt-0  text-custom2 mr-4" :class="{'hover:bg-custom1 rounded p-2 mr-0 font-bold text-center':isToggled}">
+                 <a href="#services" class="block mt-4 lg:inline-block lg:mt-0  text-custom2 mr-4" :class="{'hover:bg-custom1 rounded p-2 mr-0 font-bold text-center':isToggled}">
                    Services
                 </a>
-                <a href="#section-guidelines" class="block mt-4 lg:inline-block lg:mt-0  text-custom2 mr-4" :class="{'hover:bg-custom1 rounded p-2 mr-0 font-bold text-center':isToggled}">
+                <!-- <a href="#section-guidelines" class="block mt-4 lg:inline-block lg:mt-0  text-custom2 mr-4" :class="{'hover:bg-custom1 rounded p-2 mr-0 font-bold text-center':isToggled}">
                    Schedule
-                </a>
+                </a> -->
                 <a href="#section-abstrain" class="block mt-4 lg:inline-block lg:mt-0  text-custom2 mr-4" :class="{'hover:bg-custom1 rounded p-2 mr-0 font-bold text-center':isToggled}">
                    About
                 </a>
@@ -30,6 +30,7 @@
                 </div>
                 
             </div>
+            <p><i class="fas fa-envelope-open-text fa-2x text-custom2 pr-3"></i>CasualStiches@gmail.com</p>
     </nav>
   </div>
 </template>

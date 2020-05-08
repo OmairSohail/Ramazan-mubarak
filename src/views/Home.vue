@@ -46,7 +46,7 @@
          </div>
       </section>
 
-      <section class="consultation grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 items-center justify-center">
+      <!-- <section class="consultation grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 items-center justify-center">
          <div class="content text-left px-16 text-custom2">
            <h2 class="text-3xl mb-4"><i class="fas fa-handshake mr-3"></i>Customer Consultation</h2>
            <p class="text-base">We've got all your needs covered: from recuts, reshapes and repairs and everything in between. Don't hesitate to ask us a question or inquire as to why a certain process has to take place. All of our staff are friendly and knowledgeable because we know what it feels like. We want you to know just how special you and your merchandise are to us, so we do our very best to ensure that you and your needs always come first. We even have a complimentary estimate when you come out to us!</p>
@@ -99,9 +99,9 @@
             </div>
           </form>
          </div>
-      </section>
+      </section> -->
 
-      <section class="categories flex flex-col justify-center">
+      <section class="categories1 flex flex-col justify-center" id="services">
         <div class="max-w-2xl pl-4">
             <div class="max-w-sm w-full lg:max-w-full lg:flex my-3 rounded-full">
               <div class="card-img1 h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"  title="Woman holding a mug">
@@ -109,13 +109,13 @@
               <div class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
                 <div class="mb-8">
                   <p class="text-sm text-gray-600 flex items-center">
-                    <svg class="fill-current text-gray-500 w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <!-- <svg class="fill-current text-gray-500 w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                       <path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" />
                     </svg>
-                    Members only
+                    Members only -->
                   </p>
                   <div class="text-gray-900 font-bold text-xl mb-2">Neck Designs</div>
-                  <p class="text-gray-700 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                  <p class="text-gray-700 text-base capitalize">halter neck , simple neck , pattern designs with buttons , with and without piping & all kinds of neck designs are available.</p>
                 </div>
                 <!-- <div class="flex items-center">
                   <img class="w-10 h-10 rounded-full mr-4" src="/img/jonathan.jpg" alt="Avatar of Jonathan Reinink">
@@ -132,13 +132,109 @@
               <div class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
                 <div class="mb-8">
                   <p class="text-sm text-gray-600 flex items-center">
+                    <!-- <svg class="fill-current text-gray-500 w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                      <path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" />
+                    </svg>
+                    Members only -->
+                  </p>
+                  <div class="text-gray-900 font-bold text-xl mb-2">Sleeve Designs</div>
+                  <p class="text-gray-700 text-base capitalize">flounce sleeve , butterfly sleeve , umbrella sleeve , straight sleeve with center , with piping & other demanded styles are available.</p>
+                </div>
+                <!-- <div class="flex items-center">
+                  <img class="w-10 h-10 rounded-full mr-4" src="/img/jonathan.jpg" alt="Avatar of Jonathan Reinink">
+                  <div class="text-sm">
+                    <p class="text-gray-900 leading-none">Jonathan Reinink</p>
+                    <p class="text-gray-600">Aug 18</p>
+                  </div>
+                </div> -->
+              </div>
+         </div>
+        </div>
+          <!-- <div class="max-w-sm w-full lg:max-w-full lg:flex">
+              <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style="background-image: url('/img/card-left.jpg')" title="Woman holding a mug">
+              </div>
+              <div class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+                <div class="mb-8">
+                  <p class="text-sm text-gray-600 flex items-center">
                     <svg class="fill-current text-gray-500 w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                       <path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" />
                     </svg>
                     Members only
                   </p>
-                  <div class="text-gray-900 font-bold text-xl mb-2">Sleeve Designs</div>
+                  <div class="text-gray-900 font-bold text-xl mb-2">Can coffee make you a better developer?</div>
                   <p class="text-gray-700 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                </div>
+                <div class="flex items-center">
+                  <img class="w-10 h-10 rounded-full mr-4" src="/img/jonathan.jpg" alt="Avatar of Jonathan Reinink">
+                  <div class="text-sm">
+                    <p class="text-gray-900 leading-none">Jonathan Reinink</p>
+                    <p class="text-gray-600">Aug 18</p>
+                  </div>
+                </div>
+              </div>
+         </div>
+          <div class="max-w-sm w-full lg:max-w-full lg:flex">
+              <div class="h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" style="background-image: url('/img/card-left.jpg')" title="Woman holding a mug">
+              </div>
+              <div class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+                <div class="mb-8">
+                  <p class="text-sm text-gray-600 flex items-center">
+                    <svg class="fill-current text-gray-500 w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                      <path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" />
+                    </svg>
+                    Members only
+                  </p>
+                  <div class="text-gray-900 font-bold text-xl mb-2">Can coffee make you a better developer?</div>
+                  <p class="text-gray-700 text-base">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.</p>
+                </div>
+                <div class="flex items-center">
+                  <img class="w-10 h-10 rounded-full mr-4" src="/img/jonathan.jpg" alt="Avatar of Jonathan Reinink">
+                  <div class="text-sm">
+                    <p class="text-gray-900 leading-none">Jonathan Reinink</p>
+                    <p class="text-gray-600">Aug 18</p>
+                  </div>
+                </div>
+              </div>
+         </div> -->
+      </section>
+      <section class="categories2 flex flex-col justify-center">
+        <div class="max-w-2xl ml-auto pr-4">
+            <div class="max-w-sm w-full lg:max-w-full lg:flex my-3 rounded-full">
+              <div class="card-img3 h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden"  title="Woman holding a mug">
+              </div>
+              <div class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+                <div class="mb-8">
+                  <p class="text-sm text-gray-600 flex items-center">
+                    <!-- <svg class="fill-current text-gray-500 w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                      <path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" />
+                    </svg>
+                    Members only -->
+                  </p>
+                  <div class="text-gray-900 font-bold text-xl mb-2">Collar Designs</div>
+                  <p class="text-gray-700 text-base capitalize">tshirt collar, long collar , round collar , sherwani collar , shawl collor , with or without piping & all other designs are available.</p>
+                </div>
+                <!-- <div class="flex items-center">
+                  <img class="w-10 h-10 rounded-full mr-4" src="/img/jonathan.jpg" alt="Avatar of Jonathan Reinink">
+                  <div class="text-sm">
+                    <p class="text-gray-900 leading-none">Jonathan Reinink</p>
+                    <p class="text-gray-600">Aug 18</p>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+         <div class="max-w-sm w-full lg:max-w-full lg:flex my-3 rounded-full">
+              <div class="card-img4 h-48 lg:h-auto lg:w-48 flex-none bg-cover rounded-t lg:rounded-t-none lg:rounded-l text-center overflow-hidden" title="Woman holding a mug">
+              </div>
+              <div class="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
+                <div class="mb-8">
+                  <p class="text-sm text-gray-600 flex items-center">
+                    <!-- <svg class="fill-current text-gray-500 w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                      <path d="M4 8V6a6 6 0 1 1 12 0v2h1a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-8c0-1.1.9-2 2-2h1zm5 6.73V17h2v-2.27a2 2 0 1 0-2 0zM7 6v2h6V6a3 3 0 0 0-6 0z" />
+                    </svg>
+                    Members only -->
+                  </p>
+                  <div class="text-gray-900 font-bold text-xl mb-2">Trouser Designs</div>
+                  <p class="text-gray-700 text-base">Umbrella , patyalla , capri , cigratte , pent & all other designs are available.</p>
                 </div>
                 <!-- <div class="flex items-center">
                   <img class="w-10 h-10 rounded-full mr-4" src="/img/jonathan.jpg" alt="Avatar of Jonathan Reinink">
@@ -232,7 +328,13 @@ export default {
     },
     data(){
       return{
-         
+         formData:{
+           name:null,
+           email:null,
+           phone:null,
+           subject:null,
+           message:null
+         }
          
       }
     },
@@ -270,13 +372,20 @@ section.benefits{
 section.consultation{
   min-height:70vh;
 }
-section.categories{
+section.categories1{
   min-height: 100vh;
   background-image:url('../assets/clothes.jpg');
   background-position: center center;
   background-size:cover;
 }
 
+section.categories2{
+  min-height: 100vh;
+  background-image:url('../assets/clothes2.jpg');
+  background-position: center center;
+  background-size:cover;
+
+}
 
 .card-img1 {
   background-image: url('../assets/neck.jpg');
@@ -285,6 +394,17 @@ section.categories{
 }
 .card-img2 {
   background-image: url('../assets/sleeve.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+.card-img3{
+  background-image: url('../assets/colar.jpg');
+  background-position: center center;
+  background-size: cover;
+}
+
+.card-img4{
+  background-image: url('../assets/trouser.jpg');
   background-position: center center;
   background-size: cover;
 }
