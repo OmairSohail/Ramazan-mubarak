@@ -12,25 +12,25 @@
             </div>
             <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto" :class="{'hidden': !isToggled}">
                 <div class="navbar-nav text-md lg:flex-grow">
-                <a href="#section-showcase" class="block mt-4 lg:inline-block lg:mt-0  text-custom2 mr-4" :class="{'hover:bg-custom1 rounded p-2 mr-0 font-bold text-center':isToggled}">
+                <router-link to="/" class="block mt-4 lg:inline-block lg:mt-0  text-custom2 mr-4" :class="{'hover:bg-custom1 rounded p-2 mr-0 font-bold text-center':isToggled}">
                    Home
-                </a>
+                </router-link>
                  <a href="#services" class="block mt-4 lg:inline-block lg:mt-0  text-custom2 mr-4" :class="{'hover:bg-custom1 rounded p-2 mr-0 font-bold text-center':isToggled}">
                    Services
                 </a>
                 <!-- <a href="#section-guidelines" class="block mt-4 lg:inline-block lg:mt-0  text-custom2 mr-4" :class="{'hover:bg-custom1 rounded p-2 mr-0 font-bold text-center':isToggled}">
                    Schedule
                 </a> -->
-                <a href="#section-abstrain" class="block mt-4 lg:inline-block lg:mt-0  text-custom2 mr-4" :class="{'hover:bg-custom1 rounded p-2 mr-0 font-bold text-center':isToggled}">
+                <router-link to="/about" class="block mt-4 lg:inline-block lg:mt-0  text-custom2 mr-4" :class="{'hover:bg-custom1 rounded p-2 mr-0 font-bold text-center':isToggled}">
                    About
-                </a>
-                <a href="#section-prayers" class="block mt-4 lg:inline-block lg:mt-0  text-custom2 mr-4" :class="{'hover:bg-custom1 rounded p-2 mr-0 font-bold text-center':isToggled}">
+                </router-link>
+                <router-link to="/contact" class="block mt-4 lg:inline-block lg:mt-0  text-custom2 mr-4" :class="{'hover:bg-custom1 rounded p-2 mr-0 font-bold text-center':isToggled}">
                    Contact
-                </a>
+                </router-link>
                 </div>
-                
+                <a href="mailto: CasualStiches@gmail.com" class="block mt-4 lg:inline-block lg:mt-0  text-custom2 mr-4" :class="{' p-2 mr-0 font-bold text-center':isToggled}"><i class="fas fa-envelope-open-text fa-2x text-custom2 pr-3" ></i>CasualStiches@gmail.com</a>
             </div>
-            <p><i class="fas fa-envelope-open-text fa-2x text-custom2 pr-3"></i>CasualStiches@gmail.com</p>
+            
     </nav>
   </div>
 </template>

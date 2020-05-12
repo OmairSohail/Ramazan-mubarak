@@ -14,34 +14,34 @@
       <section class="benefits py-5 pl-12 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 justify-center items-center">
          <div class="card max-w-sm rounded overflow-hidden shadow-lg">
             <div class="icon flex flex-row items-center justify-center py-5">
-               <i class="fas fa-mobile-alt fa-3x text-custom2"></i>
+               <i class="fas fa-road fa-3x text-custom2"></i>
             </div>
             <div class="px-6 py-4 text-custom2">
-              <div class="font-bold text-xl mb-2 text-center">Trusted Tailoring</div>
+              <div class="font-bold text-xl mb-2 text-center">Our Mission</div>
               <p class="text-gray-700 text- text-center px-4 pb-3">
-                We care how you look and would like to build a relationship with you, as your trusted source for all your custom alteration needs.              </p>
+                We care how you look and would like to build a relationship with you, as your trusted source for all your custom alteration needs.</p>
             </div>
          </div>
           <div class="card max-w-sm rounded overflow-hidden shadow-lg">
             <div class="icon flex flex-row items-center justify-center py-5">
-                <i class="fas fa-cut fa-3x text-custom2"></i>
+                <i class="fas fa-handshake fa-3x text-custom2"></i>
             </div>
             <div class="px-6 py-4">
-              <div class="font-bold text-xl mb-2 text-center text-custom2">Trusted Tailoring</div>
+              <div class="font-bold text-xl mb-2 text-center text-custom2">Our Promise</div>
               <p class="text-gray-700 text- text-center px-4 pb-3">
-                We care how you look and would like to build a relationship with you, as your trusted source for all your custom alteration needs.              </p>
+                Our work is always top quality, and behind that promise we want you to know that we back our work with a satisfaction guarantee.</p>
             </div>
            
          </div>
           <div class="card max-w-sm rounded overflow-hidden shadow-lg">
              <div class="icon flex flex-row items-center justify-center py-5">
-               <i class="fas fa-headset fa-3x text-custom2"></i>
+               <i class="fal fa-cut fa-3x text-custom2"></i>
             </div>
             <div class="px-6 py-4 text-custom2">
-              <div class="font-bold text-xl mb-2 text-center">Trusted Tailoring</div>
+              <div class="font-bold text-xl mb-2 text-center">Custom Suits</div>
               <p class="text-gray-700 text- text-center px-4 pb-3">
-                We care how you look and would like to build a relationship with you, as your trusted source for all your custom alteration needs.              </p>
-            </div>
+                Tailoring custom suits & alterations for different body types is our forte we provide clients with a variety of designs on modern trend.</p>
+              </div>
             
          </div>
       </section>
@@ -294,37 +294,17 @@
          </div> -->
       </section>
 
-      <section class="footer text-custom2 px-8 py-8 flex flex-row items-center justify-center">
-        <div class="footer-img">
-          <img src="../assets/logo.png" alt="">
-        </div>
-        <div class="footer-content flex flex-row justify-around w-full  ml-16">
-          <ul class="mx-3">
-            <li class="font-bold text-lg">Quick LInks</li>
-            <li>Services</li>
-            <li>Contact</li>
-          </ul>
-
-          <ul class="mx-3">
-            <li class="font-bold text-lg">Contact Us</li>
-            <li>Address : Gulistan-e-Johar , Block-17 , Noman Grand City , C-34</li>
-            <li>Phone : 03204175870</li>
-            <li>Email : casualstiches@gmail.com</li>
-          </ul>
-        </div>
-      </section>
-      <section class="copyrights bg-gray-900 text-gray-200 p-4">
-         <p class="text-center">© Casual Stiches , All Rights Reserved 2020</p>
-      </section>
+      <FOOTER/>
   </div>
 </template>
 
 <script>
+
 export default {
     name:'home',
     components:{
-     
-       
+                  
+                 
     },
     data(){
       return{
