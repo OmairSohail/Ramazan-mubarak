@@ -35,7 +35,7 @@
          </div>
           <div class="card max-w-sm rounded overflow-hidden shadow-lg">
              <div class="icon flex flex-row items-center justify-center py-5">
-               <i class="fal fa-cut fa-3x text-custom2"></i>
+               <i class="fas fa-shirt fa-3x text-custom2"></i>
             </div>
             <div class="px-6 py-4 text-custom2">
               <div class="font-bold text-xl mb-2 text-center">Custom Suits</div>
