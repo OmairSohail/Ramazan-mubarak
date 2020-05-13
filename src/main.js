@@ -6,15 +6,6 @@ import './assets/tailwind.css';
 import './assets/main.css';
 
 
-
-// import { LMap, LTileLayer, LMarker } from 'vue2-leaflet';
-import 'leaflet/dist/leaflet.css';
-
-// Vue.component('l-map', LMap);
-// Vue.component('l-tile-layer', LTileLayer);
-// Vue.component('l-marker', LMarker);
-
-
 import vueclock from 'vue-digital-clock';
 Vue.use(vueclock);
 
