@@ -6,7 +6,7 @@
            <div class="headings max-w-2xl pr-8 mt-20">
             <h2 class="text-5xl font-bold text-custom2 text-center sm:text-center md:text-right lg:text-right xl:text-right pl-8">Altering & Tailoring Women's Clothing into Works of Art.</h2>
             <h3 class="text-xl text-custom2 text-justify sm:text-justify md:text-right lg:text-right xl:text-right mt-4 pl-8">We have been altering tailored clothing for fashion connoisseurs for over 30 years, and we employ the best alteration tailors.</h3> 
-            <a class="float-right px-8 py-3 mt-4 block mr-32 sm:mr-0 md:mr-0 lg:mr-0 xl:mr-0 bg-custom1 text-custom2 font-semibold transition-transform duration-300 ease-out transform hover:scale-95 cursor-pointer">Book Order</a>   
+            <router-link to="/about" class="float-right px-8 py-3 mt-4 block mr-32 sm:mr-0 md:mr-0 lg:mr-0 xl:mr-0 bg-custom1 text-custom2 font-semibold transition-transform duration-300 ease-out transform hover:scale-95 cursor-pointer">Know More About Us</router-link>   
            </div>
          </div>
       </section>
@@ -14,7 +14,7 @@
       <section class="benefits py-5 pl-12 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 justify-center items-center">
          <div class="card max-w-sm rounded overflow-hidden shadow-lg">
             <div class="icon flex flex-row items-center justify-center py-5">
-               <i class="fas fa-road fa-3x text-custom2"></i>
+               <img src="../assets/mission.png" alt="" width="100" height="50">
             </div>
             <div class="px-6 py-4 text-custom2">
               <div class="font-bold text-xl mb-2 text-center">Our Mission</div>
@@ -24,7 +24,7 @@
          </div>
           <div class="card max-w-sm rounded overflow-hidden shadow-lg">
             <div class="icon flex flex-row items-center justify-center py-5">
-                <i class="fas fa-handshake fa-3x text-custom2"></i>
+                <img src="../assets/promise.png" alt="" width="100" height="50">
             </div>
             <div class="px-6 py-4">
               <div class="font-bold text-xl mb-2 text-center text-custom2">Our Promise</div>
@@ -35,8 +35,8 @@
          </div>
           <div class="card max-w-sm rounded overflow-hidden shadow-lg">
              <div class="icon flex flex-row items-center justify-center py-5">
-               <i class="fas fa-tshirt fa-3x text-custom2"></i>
-            </div>
+               <img src="../assets/women-suit.png" alt="" width="100" height="50">
+             </div>
             <div class="px-6 py-4 text-custom2">
               <div class="font-bold text-xl mb-2 text-center">Custom Suits</div>
               <p class="text-gray-700 text- text-center px-4 pb-3">
@@ -142,6 +142,7 @@
               </div>
          </div> -->
       </section>
+      
       <section class="categories2 flex flex-col justify-center">
         <div class="max-w-2xl ml-auto pr-4">
             <div class="max-w-sm w-full lg:max-w-full lg:flex my-3 rounded-full">

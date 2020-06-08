@@ -7,8 +7,9 @@
         <div class="footer-content flex flex-row justify-around w-full  ml-16">
           <ul class="mx-3">
             <li class="font-bold text-lg">Quick LInks</li>
-            <li><a>about</a></li>
-            <li><a>Contact</a></li>
+            <li><router-link to="/Services" class="hover:text-gray-600">Services</router-link></li>
+            <li><router-link to="/about" class="hover:text-gray-600">About</router-link></li>
+            <li><router-link to="/contact" class="hover:text-gray-600">Contact</router-link></li>
           </ul>
 
           <ul class="mx-3">

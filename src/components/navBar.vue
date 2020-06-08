@@ -15,9 +15,9 @@
                 <router-link to="/" class="block mt-4 lg:inline-block lg:mt-0  text-custom2 mr-4" :class="{'hover:bg-custom1 rounded p-2 mr-0 font-bold text-center':isToggled}">
                    Home
                 </router-link>
-                 <a href="#services" class="block mt-4 lg:inline-block lg:mt-0  text-custom2 mr-4" :class="{'hover:bg-custom1 rounded p-2 mr-0 font-bold text-center':isToggled}">
+                 <router-link to="/Services" class="block mt-4 lg:inline-block lg:mt-0  text-custom2 mr-4" :class="{'hover:bg-custom1 rounded p-2 mr-0 font-bold text-center':isToggled}">
                    Services
-                </a>
+                </router-link>
                 <!-- <a href="#section-guidelines" class="block mt-4 lg:inline-block lg:mt-0  text-custom2 mr-4" :class="{'hover:bg-custom1 rounded p-2 mr-0 font-bold text-center':isToggled}">
                    Schedule
                 </a> -->
