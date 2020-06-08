@@ -13,7 +13,7 @@
 
           <ul class="mx-3">
             <li class="font-bold text-lg">Contact Us</li>
-            <!-- <li>Phone : 03204175870</li> -->
+            <li>Phone : 03098384323</li>
             <li>Email : casualstiches@gmail.com</li>
           </ul>
         </div>
