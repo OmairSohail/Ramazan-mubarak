@@ -12,7 +12,7 @@
       </section>
       
       <section class="benefits py-5 pl-12 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 justify-center items-center">
-         <div class="card max-w-sm rounded overflow-hidden shadow-lg">
+         <div class="card max-w-sm mx-auto rounded overflow-hidden shadow-lg">
             <div class="icon flex flex-row items-center justify-center py-5">
                <img src="../assets/mission.png" alt="" width="100" height="50">
             </div>
@@ -22,7 +22,7 @@
                 We care how you look and would like to build a relationship with you, as your trusted source for all your custom alteration needs.</p>
             </div>
          </div>
-          <div class="card max-w-sm rounded overflow-hidden shadow-lg">
+          <div class="card max-w-sm mx-auto rounded overflow-hidden shadow-lg">
             <div class="icon flex flex-row items-center justify-center py-5">
                 <img src="../assets/promise.png" alt="" width="100" height="50">
             </div>
@@ -33,7 +33,7 @@
             </div>
            
          </div>
-          <div class="card max-w-sm rounded overflow-hidden shadow-lg">
+          <div class="card max-w-sm mx-auto rounded overflow-hidden shadow-lg">
              <div class="icon flex flex-row items-center justify-center py-5">
                <img src="../assets/women-suit.png" alt="" width="100" height="50">
              </div>
